@@ -12,7 +12,7 @@ const Button = ({ label, onClick }: ButtonProps): JSX.Element => {
       <Typography
         className={styles.label}
         text={label}
-        variant={TypographyVariant.label}
+        variant={TypographyVariant.h1}
       />
     </button>
   )
